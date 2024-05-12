@@ -1,0 +1,77 @@
+.figure{
+
+    width: 32%;
+
+
+    .model{
+
+     position: relative;
+
+     &:hover{
+
+       .hovered{
+         display: block;
+       }
+
+
+     }
+
+     .heart{
+       position: absolute;
+       padding: 10px 20px;
+       background-color: white;
+       right: 0;
+       top: 3%;
+       font-size: 2rem;
+
+
+
+
+
+     }
+
+    }
+   }
+
+   span{
+
+     strong.redtext{
+       color: red;
+       margin-right: 5px;
+     }
+
+   }
+
+
+   .badgesContainer{
+    position: absolute;
+    top: 88%;
+
+   }
+
+   .discount{
+     background-color: red;
+     color: white;
+     padding: 7px 12px;
+
+   }
+
+   .tag{
+     background-color: green;
+     color: white;
+     padding: 7px 12px;
+
+   }
+
+   div.figure p {
+    margin-bottom: 40px;
+   }
+
+   .hovered{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+   }
+
